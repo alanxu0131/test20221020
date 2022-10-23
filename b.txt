@@ -1,7 +1,10 @@
+<?php
 function fun1()
 {
 
-
+    return 100;
 }
 
-fun1();
+$r = fun1();
+
+echo $r;
