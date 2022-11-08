@@ -3,7 +3,7 @@ name: Greeting from Mona
 on:
   push:
     branches:    
-      - master
+      - main
       
       
 jobs:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@main
       
     - name: Print a greeting
       env:
