@@ -1,4 +1,4 @@
-import fun1
+from fun1 import *
 
 def fib(n):                         # 建立函式 fib，帶有參數 n
     if n > 1:                       # 如果 n 大於 1
