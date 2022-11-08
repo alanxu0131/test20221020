@@ -23,3 +23,7 @@ jobs:
       run: |
         echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
         python test.py
+        
+    - name: 執行test.py
+      run: |
+        python test.py
